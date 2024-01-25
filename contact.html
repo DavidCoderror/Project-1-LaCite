@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous.html</title>
+</head>
+<body>
 
+<!-------------------->
+
+<!--Introduction-->
+
+<!-------------------->
+
+    <h1 style="font-family: 'Arial'">Contactez-nous</h1>
+    
+    
+    <a href="mailto:www.seloua@lacitec.on.ca" >
+    <img src="mailbox.jpg" height="200" witdth="200">
+    </a>
+   
+    <br>
+    
+    <p style="font-family: 'Arial'"> Veuillez visiter notre site web <a href=" https://www.collegelacite.ca/"> https://www.collegelacite.ca/</a> 
+        ou m'écrire à l'adresse <a href="mailto:www.seloua@lacitec.on.ca"> seloua@lacitec.on.ca</a>    
+    </p>
+   
+    <p style="font-family: 'Arial'"> Vous pouvez aussi utiliser le formulaire ci-dessous
+    </p>
+
+<!-------------------->
+
+<!--Formulaire-->
+
+<!-------------------->
+
+
+<form action="reset;"> 
+    <fieldset>
+        <legend ><h4>Contactez-nous</h4></legend>
+
+    <!--Civiliter-->
+
+          <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Civilité</span>       
+        
+          <label for="Mademoiselle" style="font-family: 'Arial'; display: inline;"> Mademoiselle</label>
+          <input  type="radio" name="Civilité" value="Mademoiselle">
+        
+          <label for="Madame" style="font-family: 'Arial'; display: inline;"> Madame</label>
+          <input type="radio" checked name="Civilité" value="Madame">
+       
+          <label for="Monsieur" style="font-family: 'Arial'; display: inline;"> Monsieur</label>
+          <input type="radio"  name="Civilité" value="Monsieur">
+
+          <br>
+          <br>
+
+    <!--Nom/Prenom-->
+
+        <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Nom/Prénom</span>       
+        <input type="text" style="width:400px">
+
+        <br>
+        <br>
+
+    <!--Addresse-->
+
+          
+            <table>
+
+                <tr>
+
+                    <td valign="middle" style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold;">Adresse</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+                
+                    <td><textarea cols="40" rows="8" maxlength="500"></textarea></td>
+
+                </tr>
+
+              </table>
+
+      <br>
+      <br>
+
+    <!--Code Postal-->
+
+      <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:1.90em;">  Code postal</span> 
+      <input type="text" style="width:60px;"> <input type="text" style="width:60px;">
+
+      <br>
+      <br>
+
+    <!--Provinces-->
+
+      <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:2.80em;">  Provinces</span> 
+            
+
+
+     <select style="background-color: rgb(234, 232, 232); width: 70px; border-radius: 5px;" name="Provinces" id="Provinces" >
+        <optgroup label="Provinces">
+
+            <option value="Alberta" selected >Alberta</option>
+            <option value="Colombie-Britannique">Colombie-Britannique</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="Nouveau-Brunswick">Nouveau-Brunswick</option>
+            <option value="Terre-Neuve-et-Labrador">Terre-Neuve-et-Labrador</option>
+            <option value="Nouvelle-Écosse">Nouvelle-Écosse</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Île-du-Prince-Édouard">Île-du-Prince-Édouard</option>
+            <option value="Québec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+
+        </select>
+   
+            <br>
+            <br>
+
+    <!--Plateformes-->
+
+            <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right: 1.60em;border-radius: 5px;" >  Platforme(s)</span> 
+            <label>
+                <input type="checkbox" checked name="Windows" value="Windows">
+                
+                Windows
+
+            </label>
+
+            <label>
+                <input type="checkbox" checked name="Macintosh" value="Macintosh">
+
+                Macintosh
+
+            </label>
+
+            <label>
+                <input type="checkbox" name="Unix" value="Unix">
+
+                Unix
+
+            </label>
+
+            <br>
+            <br>
+
+<!--Applications-->
+
+           <table>
+
+            <tr>
+
+              <td valign="middle" style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold;">Application(s)</td>
+              <td>&nbsp;&nbsp;</td> 
+            
+              <td><textarea cols="40" rows="8" maxlength="500"></textarea></td>
+
+            </tr>
+
+          </table>
+
+            <br>
+        </fieldset>
+<!-------------------->
+
+<!--Boutons-->
+
+<!-------------------->
+
+    <br>
+
+    <input type="submit" style="margin-left: 30.00em; border-radius: 5px;" value="Soumettre formulaire" formaction="">
+    <input type="reset" style="margin-left: 1.00em; border-radius: 5px;" value="Effacer">
+</form>
+       
+<!--fin: lien manquant-->
+        
+    
+</body>
+</html>
