@@ -12,6 +12,7 @@
 <!--Introduction-->
 
 <!-------------------->
+                         
 
     <h1 style="font-family: 'Arial'">Contactez-nous</h1>
     
@@ -40,43 +41,44 @@
     <fieldset>
         <legend ><h4>Contactez-nous</h4></legend>
 
-    <!--Civiliter-->
+    <!--Civilité-->
 
-          <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Civilité</span>       
-        
-          <label for="Mademoiselle" style="font-family: 'Arial'; display: inline;"> Mademoiselle</label>
+          <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Civilité</span>       
+        <!---->
+          <label for="Mademoiselle" style="font-family: 'Arial'; "> Mademoiselle</label>
           <input  type="radio" name="Civilité" value="Mademoiselle">
         
-          <label for="Madame" style="font-family: 'Arial'; display: inline;"> Madame</label>
+          <label for="Madame" style="font-family: 'Arial';"> Madame</label>
+          
           <input type="radio" checked name="Civilité" value="Madame">
        
-          <label for="Monsieur" style="font-family: 'Arial'; display: inline;"> Monsieur</label>
+          <label for="Monsieur" style="font-family: 'Arial'; "> Monsieur</label>
           <input type="radio"  name="Civilité" value="Monsieur">
 
           <br>
           <br>
 
-    <!--Nom/Prenom-->
+    <!--Nom/Prénom-->
 
-        <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Nom/Prénom</span>       
+        <span style="font-family: 'Times New Roman';font-size: 16px; font-weight: bold; margin-right:1.25em;">  Nom/Prénom</span>       
         <input type="text" style="width:400px">
 
         <br>
         <br>
 
-    <!--Addresse-->
+    <!--Adresse-->
 
           
             <table>
 
-                <tr>
-
-                    <td valign="middle" style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold;">Adresse</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
                 
-                    <td><textarea cols="40" rows="8" maxlength="500"></textarea></td>
 
-                </tr>
+                <td style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold;">Adresse</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+                
+                <td><textarea cols="40" rows="8" ></textarea></td>
+
+              
 
               </table>
 
@@ -85,7 +87,7 @@
 
     <!--Code Postal-->
 
-      <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:1.90em;">  Code postal</span> 
+      <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:1.90em;">  Code postal</span> 
       <input type="text" style="width:60px;"> <input type="text" style="width:60px;">
 
       <br>
@@ -93,11 +95,11 @@
 
     <!--Provinces-->
 
-      <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right:2.80em;">  Provinces</span> 
+      <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:2.80em;">  Provinces</span> 
             
 
 
-     <select style="background-color: rgb(234, 232, 232); width: 70px; border-radius: 5px;" name="Provinces" id="Provinces" >
+     <select style="background-color: rgb(234, 232, 232); width: 70px; border-radius: 5px;" name="Provinces"  >
         <optgroup label="Provinces">
 
             <option value="Alberta" selected >Alberta</option>
@@ -118,23 +120,23 @@
 
     <!--Plateformes-->
 
-            <span style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold; margin-right: 1.60em;border-radius: 5px;" >  Platforme(s)</span> 
+            <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right: 1.60em;border-radius: 5px;" >  Platforme(s)</span> 
             <label>
-                <input type="checkbox" checked name="Windows" value="Windows">
+                <input type="checkbox" checked name="Windows">
                 
                 Windows
 
             </label>
 
             <label>
-                <input type="checkbox" checked name="Macintosh" value="Macintosh">
+                <input type="checkbox" checked name="Macintosh" >
 
                 Macintosh
 
             </label>
 
             <label>
-                <input type="checkbox" name="Unix" value="Unix">
+                <input type="checkbox" name="Unix" >
 
                 Unix
 
@@ -149,10 +151,10 @@
 
             <tr>
 
-              <td valign="middle" style="font-family: 'Times New Roman', Times, serif; font-size: 16px; font-weight: bold;">Application(s)</td>
+              <td style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold;">Application(s)</td>
               <td>&nbsp;&nbsp;</td> 
             
-              <td><textarea cols="40" rows="8" maxlength="500"></textarea></td>
+              <td><textarea cols="40" rows="8"></textarea></td>
 
             </tr>
 
