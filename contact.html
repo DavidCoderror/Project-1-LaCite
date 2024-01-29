@@ -14,21 +14,22 @@
 <!-------------------->
                          
 
-    <h1 style="font-family: 'Arial'">Contactez-nous</h1>
+    <h1 style="font-family: 'Arial'">Contactez-nous</h1>       <!--Contactez-nous avec style Arial en heading 1-->   
     
     
-    <a href="mailto:www.seloua@lacitec.on.ca" >
-    <img src="mailbox.jpg" height="200" witdth="200">
+    <a href="mailto:www.seloua@lacitec.on.ca" >                <!--image dont un hyperlien est attaché-->
+    <img src="mailbox.jpg" height="200" witdth="200">              <!--hyperlien redirige a une application email de l'utilisateur-->
     </a>
    
     <br>
     
-    <p style="font-family: 'Arial'"> Veuillez visiter notre site web <a href=" https://www.collegelacite.ca/"> https://www.collegelacite.ca/</a> 
+    <p style="font-family: 'Arial'"> Veuillez visiter notre site web           <!--comment nous contacté par email-->
+       <a href=" https://www.collegelacite.ca/"> https://www.collegelacite.ca/</a>       <!--email attaché avec des hyperliens-->
         ou m'écrire à l'adresse <a href="mailto:www.seloua@lacitec.on.ca"> seloua@lacitec.on.ca</a>    
     </p>
    
-    <p style="font-family: 'Arial'"> Vous pouvez aussi utiliser le formulaire ci-dessous
-    </p>
+    <p style="font-family: 'Arial'"> Vous pouvez aussi utiliser le formulaire ci-dessous   <!--indication du formulaire-->
+    </p>                                                                                       
 
 <!-------------------->
 
@@ -37,15 +38,15 @@
 <!-------------------->
 
 
-<form action="reset;"> 
+<form action="reset;">                              <!--form ayant un fieldset et qui a l'action d'effacé -->
     <fieldset>
         <legend ><h4>Contactez-nous</h4></legend>
 
     <!--Civilité-->
 
-          <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Civilité</span>       
-        <!---->
-          <label for="Mademoiselle" style="font-family: 'Arial'; "> Mademoiselle</label>
+          <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:1.25em;">  Civilité</span>       <!--civilité marqué et espacé par span-->
+        
+          <label for="Mademoiselle" style="font-family: 'Arial'; "> Mademoiselle</label> <!--choix de civilié avec boutons radio ayant Madame par défaut-->
           <input  type="radio" name="Civilité" value="Mademoiselle">
         
           <label for="Madame" style="font-family: 'Arial';"> Madame</label>
@@ -53,14 +54,14 @@
           <input type="radio" checked name="Civilité" value="Madame">
        
           <label for="Monsieur" style="font-family: 'Arial'; "> Monsieur</label>
-          <input type="radio"  name="Civilité" value="Monsieur">
+          <input type="radio"  name="Civilité" value="Monsieur">                       
 
           <br>
-          <br>
+          <br>                                                                          
 
     <!--Nom/Prénom-->
 
-        <span style="font-family: 'Times New Roman';font-size: 16px; font-weight: bold; margin-right:1.25em;">  Nom/Prénom</span>       
+        <span style="font-family: 'Times New Roman';font-size: 16px; font-weight: bold; margin-right:1.25em;">  Nom/Prénom</span>  <!--Nom/Prénom marqué par span avec textbox et espacement adéquat par utilisation de cellules-->     
         <input type="text" style="width:400px">
 
         <br>
@@ -70,7 +71,7 @@
         
         <table>
 
-            <td style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold;">Adresse</td>
+            <td style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold;">Adresse</td>   <!--adresse avec position et espacement adéquat du textarea par utilisation de cellules-->
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
       
             <td><textarea cols="40" rows="8" ></textarea></td>
@@ -81,7 +82,7 @@
       <br>
 
     <!--Code Postal-->
-
+                                        <!--span pour marquer et espacer "Code postal", text balises pour  montrer text boxes du code postal -->
       <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:1.90em;">  Code postal</span> 
       <input type="text" style="width:60px;"> <input type="text" style="width:60px;">
 
@@ -89,7 +90,7 @@
       <br>
 
     <!--Provinces-->
-
+                        <!-- span pour marquer "Provinces" et l'espacer, select balise ayant les provinces dont Alberta est choisi par défaut par select keyword-->
       <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right:2.80em;">  Provinces</span> 
             
 
@@ -114,7 +115,7 @@
             <br>
 
     <!--Plateformes-->
-
+                          <!--span pour marquer plateforme et labels pour Windows, Macintosh et Unix ayant des checkbox avec valeurs par défaut-->
             <span style="font-family: 'Times New Roman'; font-size: 16px; font-weight: bold; margin-right: 1.60em;border-radius: 5px;" >  Platforme(s)</span> 
             <label>
                 <input type="checkbox" checked name="Windows">
@@ -142,7 +143,7 @@
 
 <!--Applications-->
 
-           <table>
+           <table>  <!--table pour structurer espacement et emplacement entre application et textarea-->
 
             <tr>
 
@@ -156,7 +157,7 @@
           </table>
 
             <br>
-        </fieldset>
+        </fieldset>  
 <!-------------------->
 
 <!--Boutons-->
@@ -169,7 +170,14 @@
     <input type="reset" style="margin-left: 1.00em; border-radius: 5px;" value="Effacer">
 </form>
        
-<h3 style ="font-family: 'Arial'">Retour à la page d'acceuil: <a href="index.html">Page d'accueil</a></h3>
+<!-------------------->
+
+<!--lien à la page d'acceuil -->
+
+<!-------------------->
+
+
+<h3 style ="font-family: 'Arial'">Retour à la page d'acceuil: <a href="index.html">Page d'accueil</a></h3> <!--"Retour à la page d'acceuil attaché avec hyperlien "index.html" "-->
         
     
 </body>
